@@ -23,15 +23,15 @@ class _PrimeNumberPageState extends State<PrimeNumberPage> {
   // Hàm tìm và in các số nguyên tố
   void findPrimeNumbers(int numbers) {
     int count = 0;
-    int N = 2;
+    int num = 2;
     primeNumbers.clear(); // Xóa danh sách số nguyên tố trước đó
 
     while (count < numbers) {
-      if (isPrime(N)) {
-        primeNumbers.add(N); // Thêm số nguyên tố vào danh sách
+      if (isPrime(num)) {
+        primeNumbers.add(num); // Thêm số nguyên tố vào danh sách
         count++;
       }
-      N++;
+      num++;
     }
   }
 

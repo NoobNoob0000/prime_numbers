@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:prime_numbers/core/core/context/text_styles.dart';
+import 'package:prime_numbers/core/context/text_styles.dart';
 
 class Control extends StatefulWidget {
   const Control({super.key, this.controller, this.onPressed});

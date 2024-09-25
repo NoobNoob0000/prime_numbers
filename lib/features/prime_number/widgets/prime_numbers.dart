@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prime_numbers/core/core/context/text_styles.dart';
+import 'package:prime_numbers/core/context/text_styles.dart';
 
 class PrimeNumbers extends StatelessWidget {
   PrimeNumbers({super.key, required this.primeNumbers});
